@@ -1,21 +1,41 @@
 # Basic Python Concepts - Assignment 1
 
-Is repository me do Python programs hain:
+This repository contains solutions for **Module 2: Basic Python Concepts** - Assignment 1, which includes two tasks.
 
-## Task 1: Basic Mathematical Operations
-- User se do numbers input lete hain.
-- Addition, Subtraction, Multiplication, aur Division karte hain.
-- Division by zero aur invalid input ke liye error handling hai.
-- Result screen par dikhate hain.
+## Task 1: Perform Basic Mathematical Operations
 
-## Task 2: Personalized Greeting
-- User se pehla aur last name input lete hain.
-- Dono ko jod ke ek full name banate hain.
-- Personalized greeting print karte hain.
+This script takes two numbers as input from the user and performs the following basic mathematical operations:
 
-## Run karne ka tarika
-Python 3 ke environment me ye scripts chalayein:
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
-```bash
-python task1_math_operations.py
-python task2_personal_greeting.py
+It then displays the result of each operation on the screen.
+
+### How to Run
+Run the script `task1_math_operations.py` and enter two numbers when prompted. The script will output the results of all operations.
+
+---
+
+## Task 2: Create a Personalized Greeting
+
+This script takes the user's first name and last name as input, concatenates them to form the full name, and prints a personalized greeting message.
+
+### How to Run
+Run the script `task2_greeting.py`, enter your first and last names when prompted, and see the greeting message.
+
+---
+
+## Files Included
+
+- `task1_math_operations.py` — Python script for Task 1.
+- `task2_greeting.py` — Python script for Task 2.
+- `README.md` — This description file.
+
+---
+
+## Notes
+
+- Input validation and error handling are included in both scripts.
+- Tested on Python 3.x.
